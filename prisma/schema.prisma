@@ -13,7 +13,7 @@ datasource db {
 
 model VisitorCount {
   id    Int     @id @default(autoincrement())
-  count BigInt
+  count Int
 }
 
 model Like {
