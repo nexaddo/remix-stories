@@ -1,23 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
-    "build": {
-      "cache": true
-    },
-    "dev": {
-      "cache": true
-    },
-    "lint": {
-      "cache": true
-    }
+    "build": { "cache": true },
+    "dev": { "cache": true },
+    "lint": { "cache": true }
   },
   "defaultBase": "main",
   "plugins": [
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    }
-  ]
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } }
+  ],
+  "nxCloudAccessToken": "YWQyZTFkZDItNmU2MC00MjE2LWEzMzMtNjI4NmM5MThhOGNlfHJlYWQtd3JpdGU="
 }
