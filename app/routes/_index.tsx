@@ -21,5 +21,3 @@ export default function Index() {
     </div>
   );
 }
-
-console.log(process.env)

@@ -9,18 +9,22 @@
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "netlify serve",
     "typecheck": "tsc",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.22.9",
     "@netlify/functions": "^2.6.0",
     "@netlify/remix-adapter": "^2.3.1",
+    "@prisma/client": "^5.17.0",
+    "@remix-run/css-bundle": "^2.10.3",
     "@remix-run/node": "^2.10.3",
     "@remix-run/react": "^2.10.3",
     "@remix-run/serve": "^2.10.3",
     "contentful": "^10.12.15",
     "isbot": "^4.1.0",
-    "remix-flat-routes": "^0.6.5"
+    "remix-flat-routes": "^0.6.5",
+    "tiny-invariant": "^1.3.3"
   },
   "devDependencies": {
     "@contentful/rich-text-types": "^16.8.3",
@@ -40,6 +44,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "nx": "19.5.3",
     "prettier": "^3.3.3",
+    "prisma": "^5.17.0",
     "typescript": "^5.1.6",
     "vite": "^5.0.0",
     "vite-tsconfig-paths": "^4.2.1"
