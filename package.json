@@ -20,7 +20,7 @@
     "@remix-run/css-bundle": "^2.10.3",
     "@remix-run/node": "^2.10.3",
     "@remix-run/react": "^2.10.3",
-    "@remix-run/serve": "^2.10.3",
+    "@remix-run/serve": "^2.17.2",
     "contentful": "^10.12.15",
     "isbot": "^4.1.0",
     "remix-flat-routes": "^0.6.5",
