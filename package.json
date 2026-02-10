@@ -21,7 +21,7 @@
     "@remix-run/node": "^2.10.3",
     "@remix-run/react": "^2.10.3",
     "@remix-run/serve": "^2.10.3",
-    "contentful": "^10.12.15",
+    "contentful": "^10.13.3",
     "isbot": "^4.1.0",
     "remix-flat-routes": "^0.6.5",
     "tiny-invariant": "^1.3.3"
